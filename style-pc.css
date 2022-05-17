@@ -48,6 +48,7 @@ footer {
 }
 
 .container {
+    background-color: aqua;
     margin-top: 230px;
     justify-content: center;
 }
@@ -55,11 +56,14 @@ footer {
 .box {
     display: flex;
     border-radius: 20px;
+    background-color: yellowgreen;
+    justify-content: space-around;
 }
 
 .box-v {
     display: flex;
     flex-direction: column;
+    background-color: violet;
 }
 
 .shadow{
